@@ -1,0 +1,80 @@
+.bandera {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background: #002868;
+    height: 800px;
+    width: 1225px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arriba1 {
+    display: flex;
+    background: white;
+    height: 350px;
+    width: 350px;
+}
+
+.arriba1centro {
+    background: red;
+    height: 300px;
+    width: 300px;
+}
+
+.arriba2 {
+    display: flex;
+    background: white;
+    height: 350px;
+    width: 800px;
+    justify-content: flex-end;
+}
+
+.arriba2centro {
+    display: flex;
+    background: red;
+    height: 300px;
+    width: 750px;
+}
+
+.down {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.abajo1 {
+    display: flex;
+    background: white;
+    height: 350px;
+    width: 350px;
+    align-items: flex-end;
+}
+
+.abajo1centro {
+    display: flex;
+    background: red;
+    height: 300px;
+    width: 300px;
+    align-items: flex-end;
+}
+
+.abajo2 {
+    display: flex;
+    background: white;
+    height: 350px;
+    width: 800px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.abajo2centro {
+    display: flex;
+    background: red;
+    height: 300px;
+    width: 750px;
+    align-items: flex-end;
+}
