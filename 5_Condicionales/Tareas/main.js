@@ -1,3 +1,5 @@
+//Tarea 1
+
 var jugador1 = prompt('Jugador 1:', 'piedra, papel o tijera');
 
 var jugador2 = prompt('Jugador 2:', 'piedra, papel o tijera');
@@ -31,3 +33,42 @@ if (jugador1 === jugador2) {
         }
     }
 }
+
+
+
+//Tarea 2
+
+/* var num1 = parseInt(prompt('Ingresa el primer número:'));
+
+var num2 = parseInt(prompt('Ingresa el segundo número:'));
+
+var num3 = parseInt(prompt('Ingresa el tercer número:'));
+
+
+if (num1 > num2) {
+    if (num1 > num3) {
+        alert ('El número mayor es ' + num1);
+    } else {
+        alert ('El núumero mayor es ' + num3);
+    }
+} else {
+    if (num2 > num3) {
+        alert ('El número mayor es ' + num2);
+    } else {
+        alert ('El núumero mayor es ' + num3);
+    }
+} */
+
+
+
+//Tarea 3
+
+/* var num1 = parseInt(prompt('Ingresa el primer número:'));
+
+var num2 = parseInt(prompt('Ingresa el segundo número:'));
+
+var num3 = parseInt(prompt('Ingresa el tercer número:'));
+
+var num4 = num1 + num2 + num3;
+
+alert ('La suma de los números es ' + num4); */
