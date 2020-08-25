@@ -16,14 +16,17 @@ if (pass === contraseña){
     alert('Password incorrecto, intente de nuevo.');
   }
  */
+
 // ------- RETO 2: PAR O IMPAR
 // Le van a preguntar al usuario que les dé un número.
 // Van a decir si este numero es par o es impar.
 
-var num = prompt('Ingresa un número:');
+var num = parseInt(prompt('Ingresa un número:')); //Conversion a numero en lugar de string
+
+console.log(num);
 
 if (num % 2 === 0) {
-    alert ('Tu numero es par')
+    alert ('Tu numero es par.');
 } else {
-    alert ('Tu número es impar')
+    alert ('Tu número es impar.');
 }
