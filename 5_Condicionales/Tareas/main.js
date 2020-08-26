@@ -34,7 +34,7 @@ if (jugador1 === jugador2) {
     }
 }
 
-
+// Se pueden integrar todas esas lineas con un "or" integrando las opciones que arrojan el mismo desenlace.
 
 //Tarea 2
 
