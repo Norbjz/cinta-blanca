@@ -47,16 +47,16 @@ console.log(colores);
 // Hacca vacío, agreger un arreglo de música vacío, agregar 5 géneros con el método push,
 // remplazar la posición número 3 con "PerritoSalchicha" y por último borrar el último elemento con el método pop. 
 
-var música = []
+var musica = []
 
-música.push(prompt('Ingresa un genero musical'));
-música.push(prompt('Ingresa otro genero musical'));
-música.push(prompt('Ingresa otro genero musical'));
-música.push(prompt('Ingresa otro genero musical'));
-música.push(prompt('Ingresa otro genero musical'));
-console.log(música);
+musica.push(prompt('Ingresa un genero musical'));
+musica.push(prompt('Ingresa otro genero musical'));
+musica.push(prompt('Ingresa otro genero musical'));
+musica.push(prompt('Ingresa otro genero musical'));
+musica.push(prompt('Ingresa otro genero musical'));
+console.log(musica);
 
-música.splice(2,1, 'PerritoSalchicha');
-música.pop();
-console.log(música);
+musica.splice(2,1, 'PerritoSalchicha');
+musica.pop();
+console.log(musica);
 
