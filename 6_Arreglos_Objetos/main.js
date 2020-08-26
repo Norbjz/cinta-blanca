@@ -42,3 +42,21 @@ console.log(colores);
 
 colores.splice(3,1, 'Rosa');
 console.log(colores);
+
+// RETO 1: ARREGLOS
+// Hacca vacío, agreger un arreglo de música vacío, agregar 5 géneros con el método push,
+// remplazar la posición número 3 con "PerritoSalchicha" y por último borrar el último elemento con el método pop. 
+
+var música = []
+
+música.push(prompt('Ingresa un genero musical'));
+música.push(prompt('Ingresa otro genero musical'));
+música.push(prompt('Ingresa otro genero musical'));
+música.push(prompt('Ingresa otro genero musical'));
+música.push(prompt('Ingresa otro genero musical'));
+console.log(música);
+
+música.splice(2,1, 'PerritoSalchicha');
+música.pop();
+console.log(música);
+
