@@ -1,0 +1,7 @@
+.jumbotron {
+    background-image: url(img/codigo.jpg);
+    background-size: cover;
+    height: 620px;
+    color: white;
+    font-weight: bolder;
+}
